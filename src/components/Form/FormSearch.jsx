@@ -4,8 +4,6 @@ import css from './form.module.css';
 
 export const FormSearch = ({ onSearch }) => {
   const [query, setQuery] = useState('');
-  
-
   const onInputChange = event => {
     setQuery(event.target.value);
   };
